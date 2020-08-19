@@ -4,7 +4,10 @@
 
 Please note that the images do not reflect the layout exactly, it is missing a key due to a bug in the way Gnome renders the layout. It renders the keyboard as having an ISO layout. ABNT2 keybords have an extra key to the left of Right Shift, ";" on br-wide and "/" on us-wide)
 
+Portuguese (Brazil, wide)
 ![Portuguese (Brazil, wide)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/br-wide.png)
+
+English (US, wide, intl., with dead keys
 ![English (US, wide, intl., with dead keys)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/us-intl-wide.png)
 
 The inspiration behind this came from wanting to customize my keyboard, without having to learn a completely new layout such as Dvorak, Colemak, etc. I wanted something easy to pick up and that my friends and family would be able to use without any problems.
