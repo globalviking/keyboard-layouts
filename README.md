@@ -1,20 +1,22 @@
 # keyboard-layouts
 
-Wide layouts for ABNT2 keyboards.
+## Wide layouts for ABNT2 keyboards.
+
+Please note that the images do not reflect the layout exactly, it is missing a key due to a bug in the way Gnome renders the layout. It renders the keyboard as having an ISO layout. ABNT2 keybords have an extra key to the left of Right Shift, ";" on br-wide and "/" on us-wide)
 
 ![Portuguese (Brazil, wide)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/br-wide.png)
 ![English (US, wide, intl., with dead keys)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/us-intl-wide.png)
 
 The inspiration behind this came from wanting to customize my keyboard, without having to learn a completely new layout such as Dvorak, Colemak, etc. I wanted something easy to pick up and that my friends and family would be able to use without any problems.
 
-The idea came of the wide layout came from this page.
-https://colemakmods.github.io/mod-dh/keyboards.html
+The hands are spaced a bit further apart which helps ergonomics a tiny bit. More importantly, since the keys on the right side of the keyboard are shifted one key to the right; Backspace, Enter, Shift, CTRL and AltGr are a bit closer and the right pinky does not have to move as far.
 
-The hands are spaced a bit further apart which helps ergonomics a tiny bit. More importantly, since the keys on the right side of the keyboard are shifted on key to the right, Backspace, Enter, Shift, CTRL and AltGr are a bit closer and the right pinky does not have to move as far. This is the main benefit.
+I got inspiration to do this after reading this...
+https://colemakmods.github.io/mod-dh/keyboards.html
 
 Tested on Microsoft® Wireless Multimedia Keyboard 1.1 (Brazilian model)
 
-## Instructions
+### Instructions
 1. Add the contents of one or more of the xkb keyboard layouts found in this repo to the appropriate file(s) in /usr/share/X11/xkb/symbols/
 
 For example:
