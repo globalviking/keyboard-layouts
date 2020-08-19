@@ -29,7 +29,7 @@ to use "English (Colemak Mod-DH, wide)" add the contents of colemak-mod-dh-wide 
 
 2. Add keyboard layout to /usr/share/X11/xkb/rules/xfree86.lst
 
-For exambple one or more of the following lines depending on what keyboard layout(s) you want.
+For example one or more of the following lines depending on what keyboard layout(s) you want.
 intl-wide       us: English (US, wide, intl., with dead keys)
 wide            br: Portuguese (Brazil, wide)
 colemak-mod-dh-wide us: English (Colemak Mod-DH, wide)
