@@ -7,6 +7,8 @@ The inspiration behind this came from wanting to customize my keyboard, without 
 The idea came of the wide layout came from this page.
 https://colemakmods.github.io/mod-dh/keyboards.html
 
+The hands are spaced a bit further apart which helps ergonomics a tiny bit. More importantly, since the keys on the right side of the keyboard are shifted on key to the right, Backspace, Enter, Shift, CTRL and AltGr are a bit closer and the right pinky does not have to move as far. This is the main benefit.
+
 Tested on Microsoft® Wireless Multimedia Keyboard 1.1 (Brazilian model)
 
 ## Instructions
