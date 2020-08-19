@@ -1,7 +1,13 @@
 # keyboard-layouts
 
 Wide layouts for ABNT2 keyboards.
-Tested on Microsoft® Wireless Multimedia Keyboard 1.1
+
+The inspiration behind this came from wanting to customize my keyboard, without having to learn a completely new layout such as Dvorak, Colemak, etc. I wanted something easy to pick up and that my friends and family would be able to use without any problems.
+
+The idea came of the wide layout came from this page.
+https://colemakmods.github.io/mod-dh/keyboards.html
+
+Tested on Microsoft® Wireless Multimedia Keyboard 1.1 (Brazilian model)
 
 ## Instructions
 1. Add the contents of one or more of the xkb keyboard layouts found in this repo to the appropriate file(s) in /usr/share/X11/xkb/symbols/
