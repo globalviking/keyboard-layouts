@@ -28,11 +28,9 @@ Tested on Microsoft® Wireless Multimedia Keyboard 1.1 (Brazilian model)
 
 For example:
 
-- to use "English (US, wide, intl., with dead keys)", add the contents of us-intl-with-dead-keys-wide to `/usr/share/X11/xkb/symbols/us`
-
-- to use "Portuguese (Brazil, wide)" add the contents of br-wide to `/usr/share/X11/xkb/symbols/br`
-
-- to use "English (Colemak Mod-DH, wide)" add the contents of colemak-mod-dh-wide to `/usr/share/X11/xkb/symbols/us`
+- to use *"English (US, wide, intl., with dead keys)"*, add the contents of us-intl-with-dead-keys-wide to `/usr/share/X11/xkb/symbols/us`
+- to use *"Portuguese (Brazil, wide)"* add the contents of br-wide to `/usr/share/X11/xkb/symbols/br`
+- to use *"English (Colemak Mod-DH, wide)"*, add the contents of colemak-mod-dh-wide to `/usr/share/X11/xkb/symbols/us`
 
 #### 2. Add keyboard layout to `/usr/share/X11/xkb/rules/xfree86.lst`
 
@@ -46,7 +44,7 @@ colemak-mod-dh-wide us: English (Colemak Mod-DH, wide)
 
 #### 3. Add keyboard layout to `/usr/share/X11/xkb/rules/evdev.xml`
 
-- To add "English (US, wide, intl., with dead keys)", add the following lines to `/usr/share/X11/xkb/rules/evdev.xml`
+To add *"English (US, wide, intl., with dead keys)"*, add the following lines to `/usr/share/X11/xkb/rules/evdev.xml`
 
 ```
 <variant>
@@ -57,7 +55,7 @@ colemak-mod-dh-wide us: English (Colemak Mod-DH, wide)
 </variant>
 ```
 
-- To add "Portuguese (Brazil, wide)", add the following lines to `/usr/share/X11/xkb/rules/evdev.xml`
+To add *"Portuguese (Brazil, wide)"*, add the following lines to `/usr/share/X11/xkb/rules/evdev.xml`
 
 ```
 <variant>
@@ -68,7 +66,7 @@ colemak-mod-dh-wide us: English (Colemak Mod-DH, wide)
 </variant>
 ```
 
-- To add "English (Colemak Mod-DH, wide)", add the following lines to `/usr/share/X11/xkb/rules/evdev.xml`
+To add *"English (Colemak Mod-DH, wide)"*, add the following lines to `/usr/share/X11/xkb/rules/evdev.xml`
 
 ```
 <variant>
