@@ -3,7 +3,7 @@
 Wide layouts for ABNT2 keyboards.
 
 ![Portuguese (Brazil, wide)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/br-wide.png)
-![English (US, wide, intl., with dead keys)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/us-intl-png)
+![English (US, wide, intl., with dead keys)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/us-intl-wide.png)
 
 The inspiration behind this came from wanting to customize my keyboard, without having to learn a completely new layout such as Dvorak, Colemak, etc. I wanted something easy to pick up and that my friends and family would be able to use without any problems.
 
