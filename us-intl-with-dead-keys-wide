@@ -1,0 +1,65 @@
+// intl-wide keyboard wide layout symbols for xkb
+
+partial alphanumeric_keys
+xkb_symbols "intl-wide" {
+
+    include "us(basic)"
+    name[Group1]= "English (US, wide, intl., with dead keys)";
+    key <TLDE> { [dead_grave, dead_tilde,         grave,       asciitilde ] };
+    key <AE01> { [         1,     exclam,    exclamdown,      onesuperior ] };
+    key <AE02> { [         2,         at,   twosuperior, dead_doubleacute ] };
+    key <AE03> { [         3, numbersign, threesuperior,      dead_macron ] };
+    key <AE04> { [         4,     dollar,      currency,         sterling ] };
+    key <AE05> { [         5,    percent,      EuroSign,     dead_cedilla ] };
+    key <AE06> { [     equal,       plus,      multiply,         division ] };
+    key <AE07> { [    6, dead_circumflex,    onequarter,      asciicircum ] };
+    key <AE08> { [         7,  ampersand,       onehalf,        dead_horn ] };
+    key <AE09> { [         8,   asterisk, threequarters,      dead_ogonek ] };
+    key <AE10> { [         9,  parenleft, leftsinglequotemark, dead_breve ] };
+    key <AE11> { [         0, parenright, rightsinglequotemark, dead_abovering ] };
+    key <AE12> { [     minus, underscore,           yen,    dead_belowdot ] };
+
+    key <AD01> { [         q,          Q,    adiaeresis,       Adiaeresis ] };
+    key <AD02> { [         w,          W,         aring,            Aring ] };
+    key <AD03> { [         e,          E,        eacute,           Eacute ] };
+    key <AD04> { [         r,          R,    registered,       registered ] };
+    key <AD05> { [         t,          T,         thorn,            THORN ] };
+    key <AD06> { [ bracketleft,  braceleft,  guillemotleft, leftdoublequotemark ] };
+    key <AD07> { [         y,          Y,    udiaeresis,       Udiaeresis ] };
+    key <AD08> { [         u,          U,        uacute,           Uacute ] };
+    key <AD09> { [         i,          I,        iacute,           Iacute ] };
+    key <AD10> { [         o,          O,        oacute,           Oacute ] };
+    key <AD11> { [         p,          P,    odiaeresis,       Odiaeresis ] };
+    key <AD12> { [ backslash,        bar,       notsign,        brokenbar ] };
+//    key <AD12> { [bracketright, braceright, guillemotright, rightdoublequotemark ] };
+
+    key <AC01> { [         a,          A,        aacute,           Aacute ] };
+    key <AC02> { [         s,          S,        ssharp,          section ] };
+    key <AC03> { [         d,          D,           eth,              ETH ] };
+    key <AC04> { [         f,          F,             f,                F ] };
+    key <AC05> { [         g,          G,             g,                G ] };
+    key <AC06> { [bracketright, braceright, guillemotright, rightdoublequotemark ] };
+    key <AC07> { [         h,          H,             h,                H ] };
+    key <AC08> { [         j,          J,             j,                J ] };
+    key <AC09> { [         k,          K,            oe,               OE ] };
+    key <AC10> { [         l,          L,        oslash,         Ooblique ] };
+    key <AC11> { [ semicolon,      colon,     paragraph,           degree ] };
+    key <AC12> { [dead_acute, dead_diaeresis, apostrophe,        quotedbl ] };
+
+    key <AB01> { [         z,          Z,            ae,               AE ] };
+    key <AB02> { [         x,          X,             x,                X ] };
+    key <AB03> { [         c,          C,     copyright,             cent ] };
+    key <AB04> { [         v,          V,             v,                V ] };
+    key <AB05> { [         b,          B,             b,                B ] };
+    key <AB06> { [ backslash,        bar,       notsign,        brokenbar ] };
+    key <AB07> { [         n,          N,        ntilde,           Ntilde ] };
+    key <AB08> { [         m,          M,            mu,               mu ] };
+    key <AB09> { [     comma,       less,      ccedilla,         Ccedilla ] };
+    key <AB10> { [    period,    greater, dead_abovedot,       dead_caron ] };
+    key <AB11> { [     slash,   question,  questiondown,        dead_hook ] }; 
+
+    key <LSGT> { [ backslash,   bar,            backslash,      bar ] };
+
+    include "level3(ralt_switch)"
+
+};

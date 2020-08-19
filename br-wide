@@ -1,0 +1,40 @@
+// Brazilian Portuguese ABNT-2 keyboard wide layout symbols for xkb
+
+partial alphanumeric_keys
+xkb_symbols "wide" {
+
+    include "br"
+    name[Group1]= "Portuguese (Brazil, wide)";
+
+    key <AE06> { [        equal,        plus,            section,      dead_ogonek ] };
+    key <AE07> { [            6,     asciicircum,  threequarters,      fiveeighths ] };
+    key <AE08> { [            7,       ampersand,      braceleft,     seveneighths ] };
+    key <AE09> { [            8,        asterisk,    bracketleft,        trademark ] };
+    key <AE10> { [            9,       parenleft,   bracketright,        plusminus ] };
+    key <AE11> { [            0,      parenright,     braceright,           degree ] };
+    key <AE12> { [        minus,      underscore,      backslash,     questiondown ] };
+
+    key <AD06> { [  bracketleft,       braceleft,    ordfeminine,      dead_macron ] };
+    key <AD07> { [            y,               Y,      leftarrow,              yen ] };
+    key <AD08> { [            u,               U,      downarrow,          uparrow ] };
+    key <AD09> { [            i,               I,     rightarrow,         idotless ] };
+    key <AD10> { [            o,               O,         oslash,         Ooblique ] };
+    key <AD11> { [            p,               P,          thorn,            THORN ] };
+    key <AD12> { [   dead_acute,      dead_grave,          acute,            grave ] };
+
+    key <AC06> { [ bracketright,      braceright, guillemotright,        0x100203a ] };
+    key <AC07> { [            h,               H,        hstroke,          Hstroke ] };
+    key <AC08> { [            j,               J,      dead_hook,        dead_horn ] };
+    key <AC09> { [            k,               K,            kra,        ampersand ] };
+    key <AC10> { [            l,               L,        lstroke,          Lstroke ] };
+    key <AC11> { [     ccedilla,        Ccedilla,     dead_acute, dead_doubleacute ] };
+    key <AC12> { [   dead_tilde, dead_circumflex,     asciitilde,      asciicircum ] };
+
+    key <AB06> { [        slash,        question,  dead_belowdot,    dead_abovedot ] };
+    key <AB07> { [            n,               N,              n,                N ] };
+    key <AB08> { [            m,               M,             mu,               mu ] };
+    key <AB09> { [        comma,            less, horizconnector,         multiply ] };
+    key <AB10> { [       period,         greater, periodcentered,         division ] };
+    key <AB11> { [    semicolon,           colon,  dead_belowdot,    dead_abovedot ] };
+
+};
