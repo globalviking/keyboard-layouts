@@ -2,7 +2,9 @@
 
 ## Wide layouts for ABNT2 keyboards.
 
-Please note that the images do not reflect the layout exactly, it is missing a key due to a bug in the way Gnome renders the layout. It renders the keyboard as having an ISO layout. ABNT2 keybords have an extra key to the left of Right Shift, ";" on br-wide and "/" on us-wide)
+![Portuguese (Brazil, wide)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/physical-keyboard.jpg)
+
+Please note that the images below do not reflect the layout exactly, it is missing a key due to a bug in the way Gnome renders the layout. It renders the keyboard as having an ISO layout. ABNT2 keybords have an extra key to the left of Right Shift, ";" on br-wide and "/" on us-wide) as can be seen above.
 
 Portuguese (Brazil, wide)
 ![Portuguese (Brazil, wide)](https://raw.githubusercontent.com/globalviking/keyboard-layouts/master/images/br-wide.png)
